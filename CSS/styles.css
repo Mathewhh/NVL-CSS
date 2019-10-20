@@ -49,3 +49,35 @@ p {
 	font-size: 30px;
 	text-transform: uppercase;
 }
+
+table{
+	border:1px solid;
+
+}
+
+th, td {
+
+	width: 100px;
+	text-align: center;
+	border:1px solid;
+
+}
+
+.ancho-celda{
+
+	width: 300px;
+}
+
+#tono1 {
+	background-color: #ffffff;
+
+}
+#tono2 {
+	background-color: #d0d0d0;
+
+}
+#tono3{background-color: #a2a2a2;}
+#tono4{background-color: #777; color:white;}
+#tono5{background-color: #4e4e4e; color: white;}
+#tono6{background-color: #292929; color: white;}
+#tono7{background-color: #000; color: white;}
