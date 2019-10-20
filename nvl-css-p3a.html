@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Combinación en la creación de estiolos</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<style>
+		input {
+
+			font-size: 15px; 
+			width: 20%; 
+			border: 1px solid; 
+			height: 26px;
+			text-align: center;
+			margin-left: 30%;
+
+		}
+
+		button{
+			height: 28px; 
+			font-size: 15px; 
+			width: 20%;
+			color: white; 
+			background-color: #F9B342; 
+			font-weight: bold; 
+			border: 0; 
+			margin: 10px
+
+		}
+
+		h2 {
+
+			font-size: 20px;
+			color:#F9B342;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+
+	<div style="text-align: center;">
+		Nombres:
+		<UL>
+			<li style="text-decoration: underline; color:red;">Mateo</li>
+			<li style="text-decoration: underline; color:blue;">Pedro</li>
+			<li style="text-decoration: underline; color:orange;">Luis</li>
+			<li style="text-decoration: underline; color:green;">Ángel</li>
+			
+		</UL>
+	</div>
+
+	<div class="seccion">Las mejores películas</div>
+	
+	<div class="container">
+		<div class="claseA">
+			<img src="images/caballero-oscuro.jpg">
+			<h1>El Caballero Oscuro</h1>
+			<p><strong>Batman/Bruce Wayne (Christian Bale)</strong> regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon (Gary Oldman) y del Fiscal del Distrito Harvey Dent (Aaron Eckhart), Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker (Heath Ledger), un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos. (FILMAFFINITY)</p>
+
+		</div>
+		<div class="claseA">
+			<img src="images/cadena-perpetua.jpg">
+			<h1>Cadena Perpetua</h1>
+			<p><strong>Acusado del asesinato de su mujer, Andrew Dufresne (Tim Robbins),</strong> tras ser condenado a cadena perpetua, es enviado a la cárcel de Shawshank. Con el paso de los años conseguirá ganarse la confianza del director del centro y el respeto de sus compañeros de prisión, especialmente de Red (Morgan Freeman), el jefe de la mafia de los sobornos. (FILMAFFINITY)</p>
+
+		</div>
+		<div class="claseA">
+			<img src="images/el-rey-leon.jpg">
+			<h1>El Rey León</h1>
+			<p><strong>Versión de acción real del clásico de animación de Disney de 1994.</strong> La historia sigue la vida del pequeño Simba, un cachorro de león que vive felizmente en la sabana con el resto de su familia. Su padre Mufasa es el líder de la manada, algo que no termina de aceptar su hermano Scar, quien tratará por todos los medios de deshacerse de él. Será entonces cuando Simba tendrá que huir y abandonar su hogar para adentrarse en nuevos y aterradores parajes.</p>
+
+		</div>
+	</div>
+
+	<div>
+		<h2>¿Cúal es tu película favorita?</h2>
+
+		<form method="post" action="miservidor-php">
+
+			<div>
+	      		<input id="email" type=”text” placeholder="  Déjanos tu email y te llamamos...">
+	      		<button value="Enviar este formulario" type="submit">CONTACTAR</button>
+			</div>
+			
+
+		</form>
+
+	</div>
+
+
+
+</body>
+</html>
