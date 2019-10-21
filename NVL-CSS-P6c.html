@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Receta de cocina - Práctica NVL-CSS-P6c</title>
+	<link rel="stylesheet" type="text/css" href="css/styles-recetas.css">
+</head>
+<body>
+
+
+	
+	<div>
+		<div class="contenedor">
+			<div class="izquierda">
+				<h1>Albóndigas de sepia con jamón al horno</h1>
+				<button>Compartir en redes</button>
+			</div>
+			<div class="izquierda">
+				<img src="images/receta.jpg">
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="resumen">
+		<div class="miniseccion">
+			<h2>Dificultad</h2>
+			<p>Fácil</p>
+		</div>
+		<div class="miniseccion">
+			
+			<h2>Tiempo de preparación</h2>
+			<p>30min</p>
+		</div>
+		<div class="miniseccion">
+			
+			<h2>Tiempo total</h2>
+			<p>1h</p>
+		</div>
+		<div class="miniseccion">
+			
+			<h2>Raciones</h2>
+			<p>6 raciones</p>
+		</div>
+
+
+	</div>
+	<h2 title="subtitulos">Ingredientes</h2>
+	<ul ingredientes>
+		<li>100 g de pan blanco semiduro (del día anterior) en trozos</li>
+		<li>2 dientes de ajo</li>
+		<li>3 ramitas de perejil fresco (hojas y parte del tallo) y 1 cucharada picado para espolvorear</li>
+		<li>200 g de jamón serrano en dados de aprox.1 cm</li>
+		<li>400 g de sepia semicongelada en trozos</li>
+		<li>1 pastilla de caldo de pescado (para 0.5 l) desmenuzada</li>
+		<li>1 pellizco de pimienta blanca molida</li>
+		<li>2 huevos</li>
+		<li>40 g de aceite de oliva y un poco más para engrasar</li>
+		<li>200 g de cebolla en cuartos</li>
+		<li>1 cucharadita de pimentón</li>
+		<li>1 hoja de laurel seca</li>
+		<li>200 g de vino blanco</li>
+		<li>300 g de agua</li>
+		<li>2 clavos</li>
+	</ul>
+
+	<h2 title="subtitulos">Información nutricional</h2>
+	<ul ingredientes>
+		<li>Calorías = 1076 KJ/257 kcal</li>
+		<li>Proteínas = 25.6 g</li>
+		<li>Carbohidratos = 10.5 g</li>
+		<li>Grasa = 12.6 g</li>
+		<li>Fibra = 1.2 g</li>
+	</ul>
+
+
+	<form method="post" action="miservidor-php">
+		<h3>¿Te ha gustado? Déjanos tu opinión:</h3>
+		<div>
+			<label for="name">Nombre:</label>
+      		<input id="name" type=”text”>
+      	</div>
+
+		<div>
+			<label for="email">Email:</label>
+      		<input id="email" type=”text”>
+
+		</div>
+		<div>
+			<label for="opinion">¿Qué es lo que más te ha gustado de la receta?:</label>
+    		<textarea id="opinion"></textarea>
+
+		</div>
+		<div>
+			<input class="boton" type="submit" value="Enviar"/>
+		</div>
+		
+		</form>
+
+</body>
+</html>
